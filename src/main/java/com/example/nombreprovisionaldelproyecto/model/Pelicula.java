@@ -17,4 +17,5 @@ public class Pelicula {
     private int anyoEstreno; 
     private String genero;
 
+    //Getters y Setters
 }
