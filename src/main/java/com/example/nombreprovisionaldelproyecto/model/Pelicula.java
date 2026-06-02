@@ -17,5 +17,45 @@ public class Pelicula {
     private int anyoEstreno; 
     private String genero;
 
+    public Pelicula(String titulo, String director, int anyoEstreno, String genero) {
+        this.titulo = titulo;
+        this.director = director;
+        this.anyoEstreno = anyoEstreno;
+        this.genero = genero;
+    }
+
     //Getters y Setters
+
+    public void gettitulo(){
+        return this.titulo;
+    }
+
+    public void getdirector(){
+        return this.director;
+    }
+
+    public void getgenero(){
+        return this.genero;
+    }
+
+    public int getAnyoEstreno() {
+        return this.anyoEstreno;
+    }
+
+    public void settitulo(String titulo){
+        this.titulo = titulo;
+    }
+
+    public void setdirector(String director){
+        this.titulo = director;
+    }
+
+    public void setgenero(String genero){
+        this.titulo = genero;
+    }
+
+    public void setAnyoEstreno(int anyoEstreno) {
+        this.anyoEstreno = anyoEstreno;
+    }
+
 }
