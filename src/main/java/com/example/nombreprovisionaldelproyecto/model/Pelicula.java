@@ -17,7 +17,8 @@ public class Pelicula {
     private int anyoEstreno; 
     private String genero;
 
-
+    public Pelicula() {
+    }
 
     public Pelicula(String titulo, String director, int anyoEstreno, String genero) {
         this.titulo = titulo;
@@ -27,6 +28,10 @@ public class Pelicula {
     }
 
     //Getters y Setters
+
+    public Long getId() {
+        return id;
+    }
 
     public void gettitulo(){
         return this.titulo;
@@ -42,6 +47,10 @@ public class Pelicula {
 
     public int getAnyoEstreno() {
         return this.anyoEstreno;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public void settitulo(String titulo){
