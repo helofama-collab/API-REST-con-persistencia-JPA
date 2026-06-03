@@ -44,5 +44,5 @@ API REST desarrollada con Spring Boot para gestionar películas y directores de 
 - GET    /api/v1/peliculas/director/{id}
 
 ## Autores
-- Juan José
-- Ahmed
+- Juan José Álvarez López
+- Ahmed El Founti Amakhtari
