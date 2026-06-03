@@ -69,4 +69,10 @@ public class PeliculaController {
         }
         return ResponseEntity.ok(service.buscarPorTitulo(titulo));
     }
+
+    // GET /api/v1/peliculas/director/{id} — Módulo A: películas de un director
+    @GetMapping("/director/{id}")
+    public ResponseEntity<List<Pelicula>> obtenerPorDirector(@PathVariable Long id) {
+        return ResponseEntity.ok(service.obtenerPorDirector(id));
+    }
 }
