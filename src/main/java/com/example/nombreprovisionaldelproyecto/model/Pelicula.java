@@ -8,6 +8,8 @@ import jakarta.persistence.Id;
 @Entity 
 public class Pelicula {
 
+
+    //Atributos
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY) 
     private Long id;
@@ -17,6 +19,8 @@ public class Pelicula {
     private int anyoEstreno; 
     private String genero;
 
+
+    // Constructores
     public Pelicula() {
     }
 
