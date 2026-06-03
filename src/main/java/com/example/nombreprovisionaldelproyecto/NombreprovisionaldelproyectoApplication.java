@@ -7,7 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class NombreprovisionaldelproyectoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(NombreprovisionaldelproyectoApplication.class, args);
+
+        SpringApplication.run(NombreprovisionaldelproyectoApplication.class, args);
 	}
 
 }
